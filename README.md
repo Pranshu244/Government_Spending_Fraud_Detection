@@ -89,5 +89,3 @@ This reflects a prototype-level model prioritizing recall for early risk detecti
 1. Pandas
 2. NumPy
 3. Streamlit (prototype dashboard)
-
-Centralized storage for transaction data, model files, and audit logs
