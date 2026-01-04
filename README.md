@@ -31,6 +31,7 @@ The solution follows a three-stage fraud detection pipeline, supported by a modu
 2. An Isolation Forest model detects transactions that deviate from normal behavior
 3. Each transaction is assigned an anomaly score
 4. This stage captures global statistical irregularities such as unusual amounts or spending patterns
+   
 **Output:** Anomaly score per transaction
 
 ### Stage 2: Graph-Based Anomaly Detection (GNN Autoencoder)
@@ -39,8 +40,10 @@ The solution follows a three-stage fraud detection pipeline, supported by a modu
 2. Relationships (shared vendors, accounts, beneficiaries, etc.) form edges
 3. A Graph Neural Network Autoencoder (GNN-AE) is trained to reconstruct node features
 4. High reconstruction error indicates structurally abnormal behavior within the transaction network
+   
 **Why Autoencoder?**
 The model learns normal graph patterns and flags deviations without labeled fraud data.
+
 **Output:** GNN reconstruction error score per transaction
 
 ### Adaptive Thresholding
@@ -86,6 +89,5 @@ This reflects a prototype-level model prioritizing recall for early risk detecti
 1. Pandas
 2. NumPy
 3. Streamlit (prototype dashboard)
-Cloud-based deployment (VM / containerized services)
 
 Centralized storage for transaction data, model files, and audit logs
