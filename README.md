@@ -119,8 +119,12 @@ The frontend integrates all trained components—encoder, scaler, Isolation Fore
 
 
 ## Pictures
+### PC View:
 ![image alt](https://github.com/Pranshu244/Government_Spending_Fraud_Detection/blob/5b116849dbf38d915c29d921a36aafcf02fe78b1/Pictures/PIC_1.png)
 
 ![image alt](https://github.com/Pranshu244/Government_Spending_Fraud_Detection/blob/5b116849dbf38d915c29d921a36aafcf02fe78b1/Pictures/PIC_2.png)
 
 ![image alt](https://github.com/Pranshu244/Government_Spending_Fraud_Detection/blob/5b116849dbf38d915c29d921a36aafcf02fe78b1/Pictures/PIC_3.png)
+
+### Mobile View:
+![image alt](https://github.com/Pranshu244/Government_Spending_Fraud_Detection/blob/2d2e7076358ac5d224e979160c8190221343eb61/Pictures/PIC_4.jpg)
