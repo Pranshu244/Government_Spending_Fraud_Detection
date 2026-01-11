@@ -96,6 +96,7 @@ This reflects a prototype-level model prioritizing recall for early risk detecti
 A lightweight Streamlit-based frontend has been added to demonstrate the end-to-end fraud detection pipeline in action.  
 The frontend integrates all trained components—encoder, scaler, Isolation Forest, and GNN Autoencoder—into a single interactive 
 The interface allows:
+
 - Uploading trained models (encoder, scaler, Isolation Forest, GNN Autoencoder)
 - Uploading transaction CSV data in raw (non-encoded) form
 - Automatically applying preprocessing, encoding, and scaling
@@ -103,7 +104,6 @@ The interface allows:
 - Visualizing flagged high-risk transactions and summary statistics for quick inspection
 
 ## Steps to Run the Frontend (Colab)
-
 1. Open the folder **`Website_Code`** in this repository.
 2. Click on **`Government_Fraud_Detection_App.ipynb`**.
 3. Click **“Open in Colab”** (top of the notebook).
@@ -113,3 +113,9 @@ The interface allows:
    ```python
    ngrok.set_auth_token("YOUR_NGROK_AUTH_TOKEN")
 
+## Pictures
+![image alt](https://github.com/Pranshu244/Government_Spending_Fraud_Detection/blob/5b116849dbf38d915c29d921a36aafcf02fe78b1/Pictures/PIC_1.png)
+
+![image alt](https://github.com/Pranshu244/Government_Spending_Fraud_Detection/blob/5b116849dbf38d915c29d921a36aafcf02fe78b1/Pictures/PIC_2.png)
+
+![image alt](https://github.com/Pranshu244/Government_Spending_Fraud_Detection/blob/5b116849dbf38d915c29d921a36aafcf02fe78b1/Pictures/PIC_3.png)
