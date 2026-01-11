@@ -88,4 +88,28 @@ This reflects a prototype-level model prioritizing recall for early risk detecti
 ### Data & Visualization
 1. Pandas
 2. NumPy
-3. Streamlit (prototype dashboard)
+
+### Frontend
+1. Streamlit
+
+## Prototype Demo (Frontend)
+A lightweight Streamlit-based frontend has been added to demonstrate the end-to-end fraud detection pipeline in action.  
+The frontend integrates all trained components—encoder, scaler, Isolation Forest, and GNN Autoencoder—into a single interactive 
+The interface allows:
+- Uploading trained models (encoder, scaler, Isolation Forest, GNN Autoencoder)
+- Uploading transaction CSV data in raw (non-encoded) form
+- Automatically applying preprocessing, encoding, and scaling
+- Running the complete multi-stage fraud detection pipeline
+- Visualizing flagged high-risk transactions and summary statistics for quick inspection
+
+## Steps to Run the Frontend (Colab)
+
+1. Open the folder **`Website_Code`** in this repository.
+2. Click on **`Government_Fraud_Detection_App.ipynb`**.
+3. Click **“Open in Colab”** (top of the notebook).
+4. Create a free ngrok account and obtain your authentication token from:  
+   https://dashboard.ngrok.com/get-started/your-authtoken
+5. Replace the placeholder with your token in the notebook:
+   ```python
+   ngrok.set_auth_token("YOUR_NGROK_AUTH_TOKEN")
+
