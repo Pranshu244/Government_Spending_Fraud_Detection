@@ -94,8 +94,8 @@ This reflects a prototype-level model prioritizing recall for early risk detecti
 
 ## Prototype Demo (Frontend)
 A lightweight Streamlit-based frontend has been added to demonstrate the end-to-end fraud detection pipeline in action.  
-The frontend integrates all trained components—encoder, scaler, Isolation Forest, and GNN Autoencoder—into a single interactive 
-The interface allows:
+The frontend integrates all trained components—encoder, scaler, Isolation Forest, and GNN Autoencoder—into a single interactive web interface.
+### The interface allows:
 
 - Uploading trained models (encoder, scaler, Isolation Forest, GNN Autoencoder)
 - Uploading transaction CSV data in raw (non-encoded) form
@@ -112,6 +112,11 @@ The interface allows:
 5. Replace the placeholder with your token in the notebook:
    ```python
    ngrok.set_auth_token("YOUR_NGROK_AUTH_TOKEN")
+6. Run all cells using **Runtime → Run all**.
+7. Once execution completes, a public ngrok URL will be generated.
+8. Open the generated URL in a browser (desktop or mobile).
+9. Upload model files and a transaction CSV to run the fraud detection pipeline.
+
 
 ## Pictures
 ![image alt](https://github.com/Pranshu244/Government_Spending_Fraud_Detection/blob/5b116849dbf38d915c29d921a36aafcf02fe78b1/Pictures/PIC_1.png)
